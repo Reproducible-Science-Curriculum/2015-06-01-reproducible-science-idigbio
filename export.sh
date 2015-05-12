@@ -2,12 +2,12 @@
 
 # Script to extract the learner materials from rr lessons and package together in one zip file
 
-DEST=./exports
-REPO_TEMP=./repos
+DEST=repsci-data
+REPO_TEMP=repos
 
 # Clear out repo temp
 rm -rf $REPO_TEMP
-rm -r $DEST/*
+rm -r $DEST
 mkdir -p $DEST/intro
 mkdir -p $DEST/organizing
 mkdir -p $DEST/automating
@@ -30,11 +30,13 @@ rm -rf $REPO_TEMP
 # org1
 
 git clone $ORG1 $REPO_TEMP
-git archive --remote=$REPO_TEMP $TREEISH files | tar -x -C $DEST/organizing --strip-components 1
+git archive --remote=$REPO_TEMP $TREEISH gapminderDataFiveYear.tsv | tar -x -C $DEST/organizing
+git archive --remote=$REPO_TEMP $TREEISH files | tar -x -C $DEST/organizing --strip-components=1
+
 rm -rf $REPO_TEMP
 
 # automation
 # publishing
 
-
 # Now data is in DEST
+zip -r $DEST.zip $DEST
