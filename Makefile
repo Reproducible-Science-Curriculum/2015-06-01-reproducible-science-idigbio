@@ -1,6 +1,5 @@
 all: intro.zip organization.zip
 
-
 # Repo addresses
 INTRO_REPO=git@github.com:Reproducible-Science-Curriculum/rr-intro.git
 INTRO_TREEISH="master"
@@ -27,7 +26,7 @@ organization.zip:
 	rm -rf tempdir
 	git clone $(ORG1_REPO) tempdir
 	git archive --remote=tempdir $(ORG1_TREEISH) | tar -x -C $(basename $@)
-	#rm -rf tempdir
+	rm -rf tempdir
 	find $(basename $@) -name ".DS_Store" -delete
 	find $(basename $@) -name ".gitignore" -delete
 	zip -r $@ $(basename $@)
