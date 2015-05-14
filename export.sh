@@ -24,7 +24,9 @@ PUBLISHING=git@github.com:Reproducible-Science-Curriculum/rr-publication.git
 # intro
 
 git clone $INTRO $REPO_TEMP
-git archive --remote=$REPO_TEMP $TREEISH data | tar -x -C $DEST/intro --strip-components 1
+git archive --remote=$REPO_TEMP $TREEISH intro-01-template.Rmd | tar -x -C $DEST/intro
+git archive --remote=$REPO_TEMP $TREEISH intro-02-template.Rmd | tar -x -C $DEST/intro
+git archive --remote=$REPO_TEMP $TREEISH data | tar -x -C $DEST/intro
 rm -rf $REPO_TEMP
 
 # org1
