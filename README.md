@@ -6,7 +6,7 @@ Materials for Reproducible Science Workshop
 1. intro.zip
   - [http://reproducible-science-curriculum.github.io/2015-05-14-duke-materials/intro.zip](http://reproducible-science-curriculum.github.io/2015-05-14-duke-materials/intro.zip)
   - [http://bit.ly/rr-intro-materials](http://bit.ly/rr-intro-materials)
-2. organization.zip _Content forthcoming_
+2. organization.zip
   - [http://reproducible-science-curriculum.github.io/2015-05-14-duke-materials/organization.zip](http://reproducible-science-curriculum.github.io/2015-05-14-duke-materials/organization.zip)
   - [http://bit.ly/rr-org-materials](http://bit.ly/rr-org-materials)
 2. automation.zip _Content forthcoming_
