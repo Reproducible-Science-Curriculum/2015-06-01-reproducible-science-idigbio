@@ -1,4 +1,4 @@
-# rr-handouts
+# 2015-05-14-duke-materials
 Materials for Reproducible Science Workshop
 
 # Download Links
