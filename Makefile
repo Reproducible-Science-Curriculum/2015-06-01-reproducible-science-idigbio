@@ -5,8 +5,8 @@ INTRO_REPO=git@github.com:Reproducible-Science-Curriculum/rr-intro.git
 INTRO_TREEISH="master"
 ORG1_REPO=git@github.com:Reproducible-Science-Curriculum/rr-organization1.git
 ORG1_TREEISH="data-v0.2"
-
 AUTOMATION_REPO=git@github.com:Reproducible-Science-Curriculum/rr-automation.git
+AUTOMATION_TREEISH="master"
 PUBLISHING_REPO=git@github.com:Reproducible-Science-Curriculum/rr-publication.git
 
 intro.zip:
@@ -29,6 +29,15 @@ organization.zip:
 	rm -rf tempdir
 	find $(basename $@) -name ".DS_Store" -delete
 	find $(basename $@) -name ".gitignore" -delete
+	zip -r $@ $(basename $@)
+	rm -rf $(basename $@)
+
+automation.zip:
+	mkdir $(basename $@)
+	rm -rf tempdir
+	git clone $(AUTOMATION_REPO) tempdir
+	git archive --remote=tempdir $(AUTOMATION_TREEISH) example-manuscript | tar -x -C $(basename $@)
+	rm -rf tempdir
 	zip -r $@ $(basename $@)
 	rm -rf $(basename $@)
 
