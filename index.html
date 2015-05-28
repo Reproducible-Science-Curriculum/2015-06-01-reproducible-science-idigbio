@@ -2,7 +2,7 @@
 layout: workshop
 root: .
 workshop: Reproducible Science Workshop - Tools, Resources, and Practices
-venue: iDigBio, 105 building, teaching room
+venue: iDigBio, 105 building, teaching room (3rd floor)
 address: NW 16th St
 country: United-States
 language: en
@@ -45,6 +45,9 @@ eventbrite: #16699120519
 
 <h2>Registration</h2>
 
+Registration is now closed!
+
+<!--
 <p>Fill out the form below to register for the workshop. Please scroll down on the
 form to click on the "Submit" button.</p>
 
@@ -56,6 +59,8 @@ indicate that you will participate remotely in the last question of the
 registration form.</p>
 
 <iframe src="https://docs.google.com/forms/d/1kCafq3UY03LuVTZ8HIheMbqJbszjw4enT8oXZQXUGxg/viewform?embedded=true" width="900" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+-->
 
 <h2>General Information</h2>
 
@@ -411,38 +416,35 @@ subsequently are prevented from taking your seat.
   </div>
 </div> <!-- End of 'shell' section. -->
 
-<!--
-<div> <!-- Start of 'Git' section. --><!--
+
+<div> <!-- Start of 'Git' section. -->
   <h3>Git</h3>
 
   <p>
-    Git is a version control system that lets you track who made changes
-    to what when and has options for easily updating a shared or public
-    version of your code
-    on <a href="https://github.com/">github.com</a>.
+    Git is a version control system that lets you track who made changes to what
+    when and has options for easily updating a shared or public version of your
+    code on <a href="https://github.com/">github.com</a>. See the instructions
+    below for your operating system. Windows and Mac Users (with OSX 10.9+) will
+    install the GitHub GUI, while Linux and Mac users with older operating
+    systems will install the command line utility.
   </p>
 
   <div class="row">
     <div class="col-md-4">
       <h4>Windows</h4>
       <p>
-	Git should be installed on your computer as part of your Bash
-	install (described above).
+	Please download the GitHub GUI <a href="https://windows.github.com/">here</a>.
       </p>
     </div>
     <div class="col-md-4">
       <h4>Mac OS X</h4>
       <p>
-	<strong>For OS X 10.8 and higher</strong>, install Git for Mac
-	by downloading and running
-	<a href="http://sourceforge.net/projects/git-osx-installer/files/latest/download">the installer</a>.
-	After installing Git, there will not be anything in your <code>/Applications</code> folder,
-	as Git is a command line program.
-	<strong>For older versions of OS X (10.5-10.7)</strong> use the
-	most recent available installer for your
-	OS <a href="http://sourceforge.net/projects/git-osx-installer/files/">available
-	  here</a>.  Use the Leopard installer for 10.5 and the Snow
-	Leopard installer for 10.6-10.7.
+	<strong>For OS X 10.9 and higher</strong>, install the GitHub GUI for Mac
+        by downloading and running the installer from
+        <a href="https://mac.github.com/">here</a>.
+        <strong>For older versions of OS X (10.5-10.8)</strong> use the
+        most recent available installer labelled "snow-leopard"
+        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -542,8 +544,13 @@ subsequently are prevented from taking your seat.
     <a href="http://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and
     statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
+    <a href="http://www.rstudio.com/">RStudio</a>. After installing both R and
+    RStudio, start RStudio and install some packages that we will need for the
+    workshop (see bottom of the page).
   </p>
+
+   <h5>There is brand new version of RStudio available as of May 26th
+    (v0.99.441), make sure to update if you already have RStudio installed.</h5>
 
   <div class="row">
     <div class="col-md-4">
@@ -578,6 +585,15 @@ subsequently are prevented from taking your seat.
       </p>
     </div>
   </div>
+
+  <h4> After installing R and RStudio</h4>
+  <p>
+    Start RStudio, and type (or copy and paste) at the console:
+    <code>
+      install.packages(c("knitr", "rmarkdown", "ggplot2", "dplyr"))
+    </code>
+  </p>
+
 </div> <!-- End of 'R' section. -->
 
 <!--
@@ -642,5 +658,7 @@ subsequently are prevented from taking your seat.
   </ol>
 </div>
 -->
+
+<hr/>
 
 We are using <a href="https://software-carpentry.org">Software Carpentry</a> <a href="https://github.com/swcarpentry/workshop-template">workshop template</a> for this website.
