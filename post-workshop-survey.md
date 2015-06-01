@@ -21,37 +21,40 @@ If you do not wish to participate, please close your browser at this time.
 #### Introduction to Reproducible Science
 * Very unsuccessful
 * Unsuccessful
-* Neither unsuccessful nor Successful
+* Neither unsuccessful nor successful
 * Successful
 * Very successful
 
 #### File organization for Reproducible Science
 * Very unsuccessful
 * Unsuccessful
-* Neither unsuccessful nor Successful
+* Neither unsuccessful nor successful
 * Successful
 * Very successful
 
 #### Introduction to version control
 * Very unsuccessful
 * Unsuccessful
-* Neither unsuccessful nor Successful
+* Neither unsuccessful nor successful
 * Successful
 * Very successful
 
 #### Automating your workflows
 * Very unsuccessful
 * Unsuccessful
-* Neither unsuccessful nor Successful
+* Neither unsuccessful nor successful
 * Successful
 * Very successful
 
 #### Sharing and Publishing your research workflow
 * Very unsuccessful
 * Unsuccessful
-* Neither unsuccessful nor Successful
+* Neither unsuccessful nor successful
 * Successful
 * Very successful
+
+#### If you'd like to explain your ratings please do so in the space below
+[open text]
 
 #### Did you attend the workshop:
 * in person?
@@ -62,16 +65,13 @@ If you do not wish to participate, please close your browser at this time.
 * some/all of the first day
 * some/all of the second day
 
-#### If you'd like to explain your ratings please do so in the space below
-[open text]
-
 #### List up to 2 topics that could have benefited from more thorough coverage
 [open text]
 
-#### List up to 2 topics that should have been de-emphasized in favor of topics listed above
+#### List up to 2 topics that should have been de-emphasized in favor of topics you listed above
 [open text]
 
-### What was one of the most useful thing you learned during the workshop?
+### What was the most useful thing you learned during the workshop?
 [open text]
 
 
@@ -112,14 +112,14 @@ If you do not wish to participate, please close your browser at this time.
 * agree
 * strongly agree
 
-#### "The workshop provided me the skills to adopt litterate programming in my research"
+#### "The workshop provided me the skills to adopt literate programming in my research"
 * strongly disagree
 * disagree
 * neither agree nor disagree
 * agree
 * strongly agree
 
-#### "The workshop convinced me to adopt litterate programming in my research"
+#### "The workshop convinced me to adopt literate programming in my research"
 * strongly disagree
 * disagree
 * neither agree nor disagree
@@ -168,18 +168,26 @@ If you do not wish to participate, please close your browser at this time.
 * agree
 * strongly agree
 
-#### The workshop was worth my time
+#### "The workshop was worth my time"
 * strongly disagree
 * disagree
 * neither agree nor disagree
 * agree
 * strongly agree
 
-
-### How well did the workshop meet your expectations?
+#### "The workshop met my expectations"
+* strongly disagree
+* disagree
+* neither agree nor disagree
+* agree
+* strongly agree
 
 ### Would you recommend the workshop to a friend?
+* yes
+* no
 
 ### What grade would you give the workshop?
+[provide grade options]
 
 ### Any other comments?
+[open text]
