@@ -11,10 +11,10 @@ humandate: June 1-2, 2015
 humantime: 9:00 am - 5:00 pm
 startdate: 2015-06-01
 enddate: 2015-06-01
-instructor: ["Hilmar Lapp (Duke, <a href='http://genome.duke.edu' target='_blank'>GCB</a>)", "Ciera Martinez, University of California Davis, <a href='http://pbi.ucdavis.edu' target='_blank'>Plant Biology Graduate Group</a>)", "François Michonneau (University of Florida, <a href='http://idigbio.org' target='_blank'>iDigBio</a>)"]
+instructor: ["Hilmar Lapp (Duke, <a href='http://genome.duke.edu' target='_blank'>GCB</a>)", "Ciera Martinez (University of California Davis, <a href='http://pbi.ucdavis.edu' target='_blank'>Plant Biology Graduate Group</a>)", "François Michonneau (University of Florida, <a href='http://idigbio.org' target='_blank'>iDigBio</a>)"]
 helper: ["Judit Ungvári-Martin", "Deb Paul", "Kevin Love"]
 contact: francois.michonneau@gmail.com
-etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
+etherpad: https://etherpad.mozilla.org/GwwIWXAo95
 eventbrite: #16699120519
 ---
 <!--
@@ -182,12 +182,13 @@ subsequently are prevented from taking your seat.
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating your workflows</td> </tr>
+      <tr> <td>09:00</td>  <td>Version control</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee/Tea break</td> </tr>
+      <tr> <td>11:00</td>  <td>Automating your workflows</td> </tr>
       <tr> <td>12:30</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:30</td>  <td>Sharing and publishing your research workflow</td> </tr>
+      <tr> <td>13:30</td>  <td>Automating your workflows</td> </tr>
       <tr> <td>15:00</td>  <td>Coffee/Tea break</td> </tr>
-      <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>15:30</td>  <td>Sharing and publishing your research workflo      <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -251,30 +252,40 @@ subsequently are prevented from taking your seat.
       <li>Organize projects and folders to enable reproducibility and reusability</li>
       <li>Understand the structure of data files and the importance of documenting all changes made</li>
       <li>Using these practices, create a reproducible project workflow using knitr in RStudio.</li>
-      <!-- <li><a href="{{site.swc_lessons}}/ref/06-R.html">Reference...</a></li> -->
+      <li>Slides:
+      <ul>
+        <li><a href="organization-slides/">File organization</a></li>
+        <li><a href="naming-slides/">File naming</a></li>
+        <li><a href="lit-prog-slides/">Literate programming</a></li>
+      </ul></li>
     </ul>
   </div>
 </div>
 
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
+    <h3>Version control</h3>
+    <ul>
+      <li>...</li>
+      <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference</a></li>
+    </ul>
+  </div>
+  <div class="col-md-4">
     <h3>Automating your workflows</h3>
     <ul>
       <li>Transforming scripts into functions</li>
       <li>Make files as a concept</li>
       <li>Utilizing free continuous integration tools</li>
       <li>Recreate figures automatically</li>
-      <!-- <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference...</a></li>
-    </ul> -->
+    </ul>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-4">
     <h3>Sharing and publishing your research workflow</h3>
     <ul>
       <li>Ensuring your workflow is permanently archived and citable</li>
       <li>Documentation and metadata for reusability</li>
       <li>Choosing licenses for software and data</li>
-      <!-- <li><a href="{{site.swc_lessons}}/ref/04-sql.html">Reference...</a></li> -->
     </ul>
   </div>
 </div>
@@ -285,10 +296,22 @@ subsequently are prevented from taking your seat.
 <!--- materials -- zip files to download -->
 <h2 id="materials">Materials</h2>
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <h3>Introduction</h3>
     <ul>
       <li><a href="materials/intro.zip">Download</a></li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <h3>Organization</h3>
+    <ul>
+      <li><a href="materials/organization.zip">Download</a></li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <h3>Automation</h3>
+    <ul>
+      <li><a href="materials/automation.zip">Download</a></li>
     </ul>
   </div>
 </div>
