@@ -175,7 +175,7 @@ If you do not wish to participate, please close your browser at this time.
 * agree
 * strongly agree
 
-#### "The workshop met my expectations?"
+#### "The workshop met my expectations"
 * strongly disagree
 * disagree
 * neither agree nor disagree
