@@ -4,7 +4,7 @@ all: intro.zip organization.zip
 INTRO_REPO=git@github.com:Reproducible-Science-Curriculum/rr-intro.git
 INTRO_TREEISH="master"
 ORG1_REPO=git@github.com:Reproducible-Science-Curriculum/rr-organization1.git
-ORG1_TREEISH="data-v0.2"
+ORG1_TREEISH="data-v0.3"
 AUTOMATION_REPO=git@github.com:Reproducible-Science-Curriculum/rr-automation.git
 AUTOMATION_TREEISH="master"
 PUBLISHING_REPO=git@github.com:Reproducible-Science-Curriculum/rr-publication.git
