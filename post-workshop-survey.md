@@ -16,9 +16,31 @@ of Natural History, University of Florida, 352-273-2066, sellis@ufl.edu.
 If you do not wish to participate, please close your browser at this time.
 
 
+### Which of the following did you or do prior to participating in the workshop?
+
+* Robust file organization
+* Version control (e.g., Git/GitHub)
+* Litterate programming (e.g., knitr/Rmarkdown)
+* Sharing and publishing my analysis using licences facilitating re-use
+
+
+### Why did you attend?
+
+We are interested in learning more about why you decided to participate in the
+workshop. How much did you interest in learning about each of the following
+topic contribute to your decision to participate
+
+[provide scale: "none", "little", "some", "a lot" for the following questions]
+
+#### File management and organization
+#### Literate programing (e.g., knitr/Rmarkdown)
+#### Version control (e.g., Git/GitHub)
+#### Publishing practices that facilitate re-use
+
 ### Please rate the success of the following workshop sessions
 
 #### Introduction to Reproducible Science
+
 * Very unsuccessful
 * Unsuccessful
 * Neither unsuccessful nor successful
@@ -26,6 +48,7 @@ If you do not wish to participate, please close your browser at this time.
 * Very successful
 
 #### File organization for Reproducible Science
+
 * Very unsuccessful
 * Unsuccessful
 * Neither unsuccessful nor successful
@@ -33,6 +56,7 @@ If you do not wish to participate, please close your browser at this time.
 * Very successful
 
 #### Introduction to version control
+
 * Very unsuccessful
 * Unsuccessful
 * Neither unsuccessful nor successful
@@ -40,6 +64,7 @@ If you do not wish to participate, please close your browser at this time.
 * Very successful
 
 #### Automating your workflows
+
 * Very unsuccessful
 * Unsuccessful
 * Neither unsuccessful nor successful
@@ -47,147 +72,93 @@ If you do not wish to participate, please close your browser at this time.
 * Very successful
 
 #### Sharing and Publishing your research workflow
+
 * Very unsuccessful
 * Unsuccessful
 * Neither unsuccessful nor successful
 * Successful
 * Very successful
 
-#### If you'd like to explain your ratings please do so in the space below
+
+#### List up to 2 topics that could have benefited from more thorough coverage
+
 [open text]
 
-#### Did you attend the workshop:
+
+#### List up to 2 topics that should have been de-emphasized in favor of topics you listed above
+
+[open text]
+
+
+#### What was the most useful thing you learned during the workshop?
+
+[open text]
+
+-------------------------------
+
+### How likely are you to do the activities listed below now compared to before workshop
+
+[provide scale: "less likely", "about the same", "more likely", "much more likely", for the following questions.]
+
+#### Better organize my files
+#### Adopt literate programming
+#### Use version control in my research
+#### Publish my work using approaches that facilitate re-use
+
+
+### Please rate your ability to conduct reproducible research now, compared to prior to the workshop
+
+* Lower
+* About the same
+* Higher
+* Much higher
+
+----------------------
+
+### How well did the workshop meet your expectation?
+
+[open text]
+
+
+### Please rate your level of agreement with the following statements
+
+[provide scale: "Strong disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
+
+* The workshop provided me the skills to better organize my files
+* The workshop provided me the skills to adopt literate programming in my
+research
+* The workshop provided me the skills to publish my work using approaches that
+facilitate re-use
+* The workshop was worth my time
+* I would recommend this workshop to a friend
+
+
+### What overall grade would you give the workshop?
+
+[sliding scale: A+,A,A-,...,F]
+
+-----------------------
+
+#### I attended the workshop:
+
 * in person?
 * remotely?
 
-#### Did you attend:
+
+#### I attended:
+
 * all the sessions/both days
 * some/all of the first day
 * some/all of the second day
 
-#### List up to 2 topics that could have benefited from more thorough coverage
-[open text]
 
-#### List up to 2 topics that should have been de-emphasized in favor of topics you listed above
-[open text]
+#### My primary role at the workshop was as:
 
-### What was the most useful thing you learned during the workshop?
-[open text]
+* presenter
+* participant
+* presenter/participant (both)
 
 
-### Which tools/approaches were you using **before** the workshop?
-* Robust file organization
-* Version control (e.g., Git/GitHub)
-* Litterate programming (e.g., knitr/Rmarkdown)
-* Sharing and publishing my analysis using licences facilitating re-use
+#### If you have any other comments to share, please do so in the space below.
 
-
-### Do you agree with the following?
-
-#### "I attended the workshop because I wanted to learn about file management/organization"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop provided me the skills to better organize my files"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop convinced me to better organize my files"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "I attended the workshop because I wanted to learn about litterate programming (e.g., knitr/Rmarkdown)"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop provided me the skills to adopt literate programming in my research"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop convinced me to adopt literate programming in my research"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "I attended the workshop because I wanted to learn about version control  (e.g.,  Git/GitHub)"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop provided me the skills to start using version control in my research"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop convinced me to use version control in my research"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "I attended the workshop to learn more about publishing practices that facilitates re-use"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop provided me the skills to publish my work using approaches that facilitate re-use"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop convinced me to publish my work using approaches that facilitate re-use"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop was worth my time"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-#### "The workshop met my expectations"
-* strongly disagree
-* disagree
-* neither agree nor disagree
-* agree
-* strongly agree
-
-### Would you recommend the workshop to a friend?
-* yes
-* no
-
-### What grade would you give the workshop?
-[provide grade options]
-
-### Any other comments?
 [open text]
